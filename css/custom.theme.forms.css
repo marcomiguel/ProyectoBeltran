@@ -1,0 +1,129 @@
+input[type=text],input[type=password],textarea,select{
+    padding: 3px;
+}
+.titleTables
+{
+    font-size:18px;
+    line-height: 30px;
+    font-weight:bold;
+    padding: 3px;
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.label_output,.label_output_ui{
+    margin: 5px;
+}
+.label_output div, .label_output_ui div{
+    display: table;
+    margin: 1px;
+    padding-top: 2px;
+    
+}
+
+.label_output div label,.label_output_ui div label{
+    display: table-row;
+    float: left;
+    max-width: 170px;
+    min-width: 130px;
+    text-align: right;
+    white-space: pre-line;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.label_output div *,.label_output_ui div *{
+    float: left;
+    font-weight: normal;
+}
+
+.rCombo{
+    /*padding: 4px;*/
+    cursor:pointer;
+}
+
+em.error {padding: 3px; color: #FF3333; font-variant: small-caps; font-style: normal;}
+
+.frmlbl
+{
+    width:130px;
+    display:block;
+    float:left;
+     height:16px;
+    padding-top:5px;
+    font-weight: bold;   
+}
+.frmlblarge
+{
+    width:150px;
+    display:block;
+    float:left;    
+      font-weight: bold;
+}
+.frmlblmedium
+{
+    width:90px;
+    display:block;
+    float:left;    
+    font-weight: bold;
+}
+.frmlblmediumInline
+{
+    width:90px;
+    font-weight: bold;
+}
+.frmlbllargeInline
+{
+    width:150px;
+    font-weight: bold;
+}
+.frmlblshort
+{
+    width:70px;
+    display:block;
+    float:left;
+    font-weight: bold;
+}
+
+
+#errorMessages{
+    color:white;
+    max-width: 300px;
+    min-width: 300px;
+    right: 20px;
+    bottom: 5px;
+    position: fixed;
+    z-index: 5000;
+    display: none;
+
+}
+
+#errorMessages .header{
+    background:url('../css/msg_img/gritter-long.png') no-repeat left -30px;
+    height:10px;
+}
+#errorMessages .content{
+    background:url('../css/msg_img/gritter-long.png') no-repeat left -40px;
+    min-height: 50px; padding-left: 5px; padding-top: 5px;
+}
+
+#errorMessages .content .img{
+    float: left;
+}
+#errorMessages .content .text .title{
+    padding-left: 53px; font-size: 12px; font-weight: bold;
+}
+#errorMessages .content .text .message{
+    padding-left: 53px; padding-top: 2px; padding-bottom: 2px;font-size: 11px;
+}
+
+#errorMessages .content .text .message p{
+    padding-right: 5px;
+}
+
+#errorMessages .footer{
+    width: 100%;background:url('../css/msg_img/gritter-long.png') no-repeat left bottom;
+    height:8px;
+    margin:0;
+}

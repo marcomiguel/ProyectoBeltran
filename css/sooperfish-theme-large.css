@@ -1,0 +1,57 @@
+/* Configuration of menu width */
+
+/**
+Stylesheet for SooperFish by www.SooperThemes.com
+Author: Jurriaan Roelofs
+*/
+
+html body ul#nav ul
+,html body ul#nav ul li {
+width:200px;
+}
+html body ul#nav ul ul {
+margin:0 0 0 200px;
+}
+
+/* Theming the menu */
+
+ul#nav {
+float:left;
+/*border:solid #459e00;
+border-width:0 5px 0 5px;*/
+width: 100%;
+background: #393632;
+margin-bottom: 10px;
+}
+
+ul#nav ul {
+border-bottom:3px solid #459e00;
+background:#222;
+}
+
+ul#nav li a {
+padding:16px 24px;
+text-decoration:none;
+background:#393632;
+color:#fff;
+}
+
+ul#nav ul li a {
+padding:8px 12px;
+}
+
+ul#nav li a:hover
+,ul#nav li a:focus {
+color:#97e858;
+}
+
+ul#nav span.sf-arrow {
+top:24px;
+right:6px;
+background-image:url(../images/arrows-white.png);
+}
+
+ul#nav ul span.sf-arrow {
+right:12px;
+top:16px;
+}
