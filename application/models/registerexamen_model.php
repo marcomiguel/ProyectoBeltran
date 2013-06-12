@@ -94,7 +94,9 @@ class Registerexamen_model extends CI_Model {
                 $result = $this->retornar_perfil($sidx, $sord, $start, $limit, $idSearch);
             else
                 $result = $this->retornar_examen($sidx, $sord, $start, $limit, $idSearch);
-
+			
+			$responce = new $std;
+			
             $responce->page = $page;
             $responce->total = $total_pages;
             $responce->records = $count;
